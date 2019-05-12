@@ -23,21 +23,45 @@
                 <fieldset>
 
                     <!-- Form Name -->
-                    <legend>Address Details</legend>
+                    <legend>Customer Details</legend>
 
-                    <!-- Text input-->
                     <div class="form-group">
-                        <label class="col-sm-10 control-label" for="textinput">Line 1</label>
+                        <label class="col-sm-10 control-label" for="textinput">First Name</label>
                         <div class="col-sm-10">
-                            <input type="text" placeholder="Address Line 1" class="form-control">
+                            <input type="text" placeholder="First Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-10 control-label" for="textinput">Last Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="Last Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-10 control-label" for="textinput">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" placeholder="Email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-10 control-label" for="textinput">Phone</label>
+                        <div class="col-sm-10">
+                            <input type="tel" placeholder="Phone Number" class="form-control">
                         </div>
                     </div>
 
                     <!-- Text input-->
                     <div class="form-group">
-                        <label class="col-sm-2 control-label" for="textinput">Line 2</label>
+                        <label class="col-sm-10 control-label" for="textinput">Address</label>
                         <div class="col-sm-10">
-                            <input type="text" placeholder="Address Line 2" class="form-control">
+                            <input type="text" placeholder="Line 1" class="form-control">
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="text" placeholder="Line 2" class="form-control">
                         </div>
                     </div>
 
@@ -90,7 +114,7 @@
                         <div class="col-sm-offset-2 col-sm-10">
                             <div class="pull-right">
                                 <button type="submit" class="btn btn-default">Cancel</button>
-                                <button type="submit" class="btn btn-primary">Save</button>
+                                <button type="submit" class="btn btn-primary" name="customer">Save</button>
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/../../php" />
+      <path value="C:/php-7.3.4-nts-Win32-VC15-x64" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
 </project>
