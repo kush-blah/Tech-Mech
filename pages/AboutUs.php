@@ -20,11 +20,8 @@
     <!--Carousel-->
 <div class="carousel slide rounded px-5" data-interval="2000" id="aboutCarousel" data-ride="carousel">
     <div class="carousel-inner">
-    <!--Carousel Item-->
         <div class="carousel-item active">
-    <!--Carousel Image-->
             <img class="d-block w-100" src="../media/group-pic.jpg" alt="First slide">
-    <!--Carousel title-->
             <div class="carousel-caption d-none d-md-block">
     <!--Carousel Body-->
                 <p class="h5 text-light">We are an elite group of engineer working together to give you hands down the
