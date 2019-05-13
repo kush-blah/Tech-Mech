@@ -512,7 +512,7 @@ label {
     background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 538px) {
     #Half {
         text-align: center;
     }
@@ -540,5 +540,10 @@ label {
 
     #Half{
         margin-left: 0px;
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
     }
 }
