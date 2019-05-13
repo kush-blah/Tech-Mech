@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Created by Kush Singh Chibber-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,9 +16,11 @@
 <header>
     <?php include('nav-header.html'); ?>
 </header>
+<!--image container-->
 <section class="parallax">
     <div class="parallax-inner">
         <div class="border-bottom">
+            <!--Login Button-->
             <button class="loginButton" onclick="toggle()"><b>Login</b></button>
             <div class="embed-responsive embed-responsive-21by9">
                 <video width="320px" height="240px" autoplay loop>

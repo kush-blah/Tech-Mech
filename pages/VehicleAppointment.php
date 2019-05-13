@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Created by Kush Singh Chibber-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,15 +12,17 @@
 </head>
 <body>
 <header>
+    <!--Include Navigation-->
     <?php include('nav-header.html'); ?>
 </header>
 <div class="appointment">
     <section>
-        <form>
             <h3 class="mx-5 text-white">Select or Add Vehicle</h3>
             <div class="row mx-lg-5">
+                <!--Card for vehicle details-->
                 <div class="col-lg-2 ml-5 justify-content-center card addVehicle">
                     <div class="card-body">
+                       <!--Car Details-->
                         <p><strong>Car Name: </strong></p>
                         <p>Registration Number:</p>
                         <p>Type: </p>
@@ -34,7 +37,6 @@
                     <br>
                 </div>
             </div>
-        </form>
     </section>
     <div class="modal fade" id="modalVehicle" tabindex="-1" role="dialog" aria-labelledby="modalVehicle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">

@@ -190,8 +190,8 @@ footer {
 }
 
 .logo {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .packages {
@@ -528,5 +528,17 @@ label {
 
     .feedbackForm {
         padding: 0 0;
+    }
+
+    #feedbackContainer{
+        padding: 5px 50px 65px;
+    }
+
+    #Quarter{
+        margin-right: 0;
+    }
+
+    #Half{
+        margin-left: 0px;
     }
 }
