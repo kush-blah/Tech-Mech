@@ -39,6 +39,14 @@
                         <div class="col-md-2 col-sm-1"></div>
                         <div class="col-md-4 col-sm-1">
                             <!--Counter-->
+            <h1 id="tagline"><i>Treat your car the way it Deserves to be Treated!</i></h1>
+            <span class="container-fluid justify-content-center loginDialog"
+                  id="login-dialog"><?php include("Login-Signup.php"); ?></span>
+            <section class="section mt-5">
+                <div class="container">
+                    <div class="d-flex">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
                             <div class="counter" data-count="26">0</div>
                         </div>
                         <div class="col-md-6 text-left px-5">
@@ -52,6 +60,8 @@
                 <!--content 2-->
                     <div class="d-flex">
                         <div class="col-md-2"><!--Empty Spacing Div--></div>
+                    <div class="d-flex">
+                        <div class="col-md-2"></div>
                         <div class="col-md-6 text-left px-5">
                             <p class="h2 text-left pt-4 text-light">Home Service</p>
                             <p class="font-italic text-left text-light">If you cant come to us We will Come to you.</p>
@@ -69,6 +79,14 @@
                             <img src="../media/shield.png">
                         </div>
                         <div class="col-md-6 px-5">
+                    </div>
+                    <br>
+                    <div class="d-flex">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-2">
+                            <img src="../media/shield.png">
+                        </div>
+                        <div class="col-md-6 text-left px-5">
                             <p class="h2 text-left pt-4"></p>
                             <p class="font-italic text-left text-light">We provide a guarantee with every Service and
                                 Subscription. </p>
@@ -81,6 +99,8 @@
                     <br>
                 <!--content 4-->
                     <div class="d-flex float-right">
+                    <div class="d-flex">
+                        <div class="col-md-2"></div>
                         <div class="col-md-2">
                             <img src="../media/save-Money.png">
                         </div>
@@ -100,21 +120,29 @@
         <div class="container">
             <div class="d-flex justify-content-center">
                 <div class="col-sm-2">
+                </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/Mazda-logo.png" alt="Card image cap">
                     </div>
                 </div>
                 <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/Mitsubishi-logo.png"
                              alt="Card image cap">
                     </div>
                 </div>
                 <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/opel_logo.png" alt="Card image cap">
                     </div>
                 </div>
+                <div class="col-sm-3">
                 <div class="col-sm-2">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/subaru.png" alt="Card image cap">
@@ -123,20 +151,24 @@
             </div>
             <div class="d-flex justify-content-center">
                 <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/volkswagon.png" alt="Card image cap">
                     </div>
                 </div>
+                <div class="col-sm-3">
                 <div class="col-sm-2">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/nissan.png" alt="Card image cap">
                     </div>
                 </div>
+                <div class="col-sm-3">
                 <div class="col-sm-2">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/Honda-logo.png" alt="Card image cap">
                     </div>
                 </div>
+                <div class="col-sm-3">
                 <div class="col-sm-2">
                     <div class="card bg-transparent border-0">
                         <img class="card-img-top logo img-fluid" src="../media/audi.png" alt="Card image cap">

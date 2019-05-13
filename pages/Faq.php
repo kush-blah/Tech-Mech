@@ -25,6 +25,7 @@
     <!-- Bootstrap FAQ - START -->
     <div class="container">
 <!--Accordion Card-->
+
         <div id="accordion">
             <div class="card">
                 <div class="card-header" id="headingOne">
@@ -36,6 +37,7 @@
                     </h5>
                 </div>
 <!--Answer Card Body-->
+
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                         Account registration <strong>is</strong> required if you want to avail to our services.
