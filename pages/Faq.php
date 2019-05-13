@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Created by Kush Singh Chibber-->
 <html>
 <head>
     <meta charset="UTF-8">
@@ -23,7 +24,7 @@
 
     <!-- Bootstrap FAQ - START -->
     <div class="container">
-
+<!--Accordion Card-->
         <div id="accordion">
             <div class="card">
                 <div class="card-header" id="headingOne">
@@ -34,7 +35,7 @@
                         </button>
                     </h5>
                 </div>
-
+<!--Answer Card Body-->
                 <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
                         Account registration <strong>is</strong> required if you want to avail to our services.
@@ -101,6 +102,7 @@
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
+                        <!--List-->
                         During our opening Hours.
                         <ul class="font-italic">
                             <li>Sun: 8 p.m. - 10 p.m.</li>

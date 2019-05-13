@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Created by Kush Singh Chibber-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,6 +22,7 @@
     <script src="../js/custom.js"></script>
 </head>
 <body>
+<!--Header-->
 <?php include('nav-header.html'); ?>
 <div class="container-fluid" id="banner">
     <div class="row float-right" id="loginPricing">
@@ -28,8 +30,9 @@
         <span class="container-fluid justify-content-center loginDialog"
               id="login-dialog"><?php include("Login-Signup.php"); ?></span>
     </div>
+    <!--Hover row-->
     <div class="row subscriptions">
-        <div class="card" id="Quarter" style="width: 18rem;">
+        <div class="card" id="Quarter">
             <div class="card-body">
                 <h5 class="card-title">Quarterly Pack</h5>
                 <h3>&euro;300</h3>
@@ -38,7 +41,7 @@
                     users in the city.</p>
             </div>
         </div>
-        <div class="card" id="Year" style="width: 18rem;">
+        <div class="card" id="Year">
             <div class=
                  "card-body">
                 <h5 class="card-title">Yearly Pack</h5>
@@ -48,7 +51,7 @@
                     users in the city.</p>
             </div>
         </div>
-        <div class="card" id="Half" style="width: 18rem;">
+        <div class="card" id="Half">
             <div class="card-body">
                 <h5 class="card-title">Half Pack</h5>
                 <h3>&euro;500</h3>
@@ -64,6 +67,7 @@
 <h2 class="or"><i>--OR--</i></h2>
 <h3 style="text-align: center">Select a One Time Package.</h3>
 <br>
+<!--Services-->
 <div class="container">
     <div class="row justify-content-center">
         <div class="card packages">

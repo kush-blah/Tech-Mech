@@ -190,8 +190,8 @@ footer {
 }
 
 .logo {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 .packages {
@@ -512,7 +512,7 @@ label {
     background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 538px) {
     #Half {
         text-align: center;
     }
@@ -528,5 +528,22 @@ label {
 
     .feedbackForm {
         padding: 0 0;
+    }
+
+    #feedbackContainer{
+        padding: 5px 50px 65px;
+    }
+
+    #Quarter{
+        margin-right: 0;
+    }
+
+    #Half{
+        margin-left: 0px;
+    }
+
+    .logo{
+        width: 70px;
+        height: 70px;
     }
 }

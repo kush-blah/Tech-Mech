@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Created by Kush Singh Chibber-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,6 +29,7 @@
             </div>
             <br>
             <strong class="text-white">How was your service experience?</strong>
+            <!--Feeback Selection Row-->
             <div class="row feedback-buttons">
                 <button class="col btn bg-transparent text-center ">
                     1
@@ -65,6 +67,7 @@
             <br>
             <strong class="text-white">How was did our executives treat you?</strong>
             <div class="row feedback-buttons">
+                <!--Feeback Selection Row-->
                 <div class="col btn bg-transparent text-center ">
                     1
                 </div>
@@ -101,6 +104,7 @@
             <br>
             <strong class="text-white">How likely are you to visit us again?</strong>
             <div class="row feedback-buttons">
+                <!--Feeback Selection Row-->
                 <div class="col btn bg-transparent text-center ">
                     1
                 </div>
